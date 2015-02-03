@@ -7,7 +7,7 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Reperatur Café Braunschweig",
+      name: "Reperatur-Café Braunschweig",
       description: "gemeinsam reparieren - Nachhaltigkeit leben",
       date: "7 Februar 2015",
       // If your event is free, just comment this line
@@ -192,8 +192,13 @@ module.exports = {
       },
       {
         name: "Fablab Braunschweig",
-        logo: "themes/repair-bs/img/fablab.png",
+        logo: "themes/repair-bs/img/selbstwerk_bs.png",
         url: "http://www.offene-werkstaetten.org/werkstatt/fablab-braunschweig"
+      },
+      {
+        name: "Flickwerk Braunschweig",
+        logo: "themes/repair-bs/img/flickwerk.gif",
+        url: "http://www.flickwerk-braunschweig.de/"
       }
     ],
 
