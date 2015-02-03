@@ -1,5 +1,11 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ducimus neque amet corrupti ex temporibus similique.</p>
+<p>Wenn ihr Dinge zum Reparieren habt müsst ihr euch noch etwas gedulden - am 7 Februar geben wir hier bekannt wann das erste Treffen ist.</p>
+<p>Interessierte Helfer - egal ob ihr beim ersten Treffen Zeit habt oder nicht - so erreicht ihr uns:</p>
+<p>
+<b>TODO: kontakt@dresse.de</b></br>
+<b>TODO: Telefonnummer</b></br>
+</p>
+<!--
 <form method="post" action="contact.php" id="form" class="form">
   <div class="control-group control-group-name">
     <label for="name">Name</label>
@@ -15,3 +21,4 @@
   </div>
   <input class="btn btn-send" type="submit" value="Send">
 </form>
+-->

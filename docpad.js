@@ -7,34 +7,36 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Reperatur Café Braunschweig",
+      description: "gemeinsam reparieren - Nachhaltigkeit leben",
+      date: "7 Februar 2015",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "$100",
+      venue: "Karlstraße 95",
+      address: "Karlstraße 95",
+      city: "38106 Braunschweig",
+      lon: "10.53836",
+      lat: "52.27253",
+      state: ""
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
+//    callToAction: {
+//        text: "Register now!",
+//        link: "http://eventick.com.br"
+//    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+//    forkButton: {
+//        repository: "https://github.com/braziljs/conf-boilerplate"
+//    },
 
     // Site info
     site: {
-      theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      theme: "repair-bs",
+      url: "reparieren-bs.de",
+      //googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website
@@ -43,22 +45,22 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
-      // 'contact'
+      //'speakers',
+      //'schedule',
+      //'sponsors',
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Info",
+      location: "Veranstaltungsort",
+      speakers: "Helfer",
+      schedule: "Ablauf",
+      sponsors: "Sponsoren",
+      partners: "Partner",
+      contact: "Kontakt"
     },
 
     // The entire schedule
@@ -179,9 +181,19 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Landeskirchliche Gemeinschaft Braunschweig",
+        logo: "themes/repair-bs/img/lkg.jpg",
+        url: "http://lkgbs.de"
+      },
+      {
+        name: "freiwilligen agentur",
+        logo: "themes/repair-bs/img/freiwilligen_agentur.gif",
+        url: "http://www.freiwillig-engagiert.de/"
+      },
+      {
+        name: "Fablab Braunschweig",
+        logo: "themes/repair-bs/img/fablab.png",
+        url: "http://www.offene-werkstaetten.org/werkstatt/fablab-braunschweig"
       }
     ],
 
