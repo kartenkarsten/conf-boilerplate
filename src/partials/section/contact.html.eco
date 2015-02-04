@@ -1,9 +1,13 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
 <p>Wenn ihr Dinge zum Reparieren habt müsst ihr euch noch etwas gedulden - am 7 Februar geben wir hier bekannt wann das erste Treffen ist.</p>
 <p>Interessierte Helfer - egal ob ihr beim ersten Treffen Zeit habt oder nicht - so erreicht ihr uns:</p>
-<p>
-<b>TODO: kontakt@dresse.de</b></br>
-<b>TODO: Telefonnummer</b></br>
+
+<p><h4>Ansprechpartner:</h4>
+Freiwilligenagentur,<br>
+Sonnenstraße 13, 38100 Braunschweig<br>
+Mail: <a href="mailto:info.bs (at) freiwillig-engagiert.de">info.bs (at) freiwillig-engagiert.de</a><br>
+Telefon: 0531/4811020<br>
+B. Klerings / I. El Yazidi / O. Ding
 </p>
 <!--
 <form method="post" action="contact.php" id="form" class="form">
