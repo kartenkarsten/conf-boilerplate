@@ -1,6 +1,7 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <p itemprop="description">
-Wir wollen die Nachhaltigkeit fördern, indem wir gemeinsam kaputte Haushaltsgegenstände reparieren. Dazu sind zum einen Menschen mit entsprechenden Fachwissen und zum anderen welche mit defekten Geräten notwendig. Was ist mit dir? Mach mit!
+Wir wollen die Nachhaltigkeit fördern, indem wir gemeinsam kaputte Haushaltsgegenstände reparieren. Dazu sind zum einen Menschen mit entsprechenden Fachwissen und zum anderen welche mit defekten Geräten notwendig.  <a href="http://www.unser38.de/braunschweig-nordstadt/aktiv/reparaturcaf-in-braunschweig-fachleute-fuer-elektronik-und-freiwillige-fuer-aufbau-und-vernetzung-gesucht-d10531.html">unser38.de berichtete</a>
+<br>Was ist mit dir? Mach mit!
 </p>
 
 <p>
