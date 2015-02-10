@@ -7,9 +7,9 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Reparatur-Café Braunschweig",
+      name: "Reparaturcafé Braunschweig",
       description: "gemeinsam reparieren - Nachhaltigkeit leben",
-      date: "7 Februar 2015",
+      date: "21 Februar 2015",
       // If your event is free, just comment this line
       //price: "$100",
       venue: "Karlstraße 95",
