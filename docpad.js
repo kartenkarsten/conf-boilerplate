@@ -15,6 +15,8 @@ module.exports = {
       venue: "Coco Bongo",
       address: "Boulevard Kukulcan, 30",
       city: "Cancún",
+      lon: "-86.7720534",//has to figure out manualy (eg. by http://mrmufflon.github.io/Leaflet.Coordinates/examples/demo.html) 
+      lat: "21.0900546", 
       state: "Quintana"
     },
 
@@ -33,8 +35,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://braziljs.github.io/conf-boilerplate/"
     },
 
     // Active sections on the website

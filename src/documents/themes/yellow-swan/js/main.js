@@ -5,62 +5,34 @@
 
     // Init functions, called on DOMContentLoaded event
     conf.init = function () {
-        conf.map.init($('#map-canvas'));
+        conf.map.init($('#map'));
         conf.menu.init();
     };
 
     /***
-        Google Maps implementation
+        Map implementation
     ***/
+
+    
     conf.map = {
         marker: 'themes/yellow-swan/img/marker-default.png'
     };
 
-    // Google Maps configs
     conf.map.init = function ($element) {
         conf.map.element = $element;
 
-        conf.map.geocoder = new google.maps.Geocoder();
+        conf.map.latlon = [
+            parseFloat(conf.map.element.attr('data-lat')), 
+            parseFloat(conf.map.element.attr('data-lon')) 
+            ];
 
-        conf.map.latlng = new google.maps.LatLng(0, 0);
+        conf.map.canvas = L.map('map').setView(conf.map.latlon, 16);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(conf.map.canvas);
+        L.marker(conf.map.latlon).addTo(conf.map.canvas);
 
-        conf.map.options = {
-            zoom: 16,
-            center: conf.map.latlng,
-            scrollwheel: false,
-            streetViewControl: true,
-            labels: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-        conf.map.canvas = new google.maps.Map(conf.map.element.get(0), conf.map.options);
-        conf.map.canvas.setCenter(conf.map.latlng);
-
-        conf.map.createMarker();
-    };
-
-    conf.map.createMarker = function () {
-        
-        conf.map.address = conf.map.element.attr('data-address');
-
-        conf.map.geocoder.geocode({ 'address': conf.map.address}, function (results, status) {
-
-            if (status === google.maps.GeocoderStatus.OK) {
-
-                conf.map.canvas.setCenter(results[0].geometry.location);
-
-                new google.maps.Marker({
-                    map: conf.map.canvas,
-                    position: results[0].geometry.location,
-                    icon: conf.map.marker
-                });
-            } else {
-                if (window.console) {
-                    console.log('Google Maps was not loaded: ', status);
-                }
-            }
-        });
-    };
+    }
 
     /***
         Create animated scroll for menu links
