@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
-<p>Hast du Fragen? Möchtest du mithelfen? Oder einfach dein Kommen mit einem defekten Gerät anmelden?<br>
+<p>Hast du Fragen? Möchtest du mithelfen? Dein Kommen mit einem defekten Gerät anmelden? Oder Kommerzielle Reparaturangebote empfehlen? <br>
 Dann nutze diese Kontaktdaten:
 
 <h4>Ansprechpartner:</h4>
