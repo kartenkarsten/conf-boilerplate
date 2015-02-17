@@ -174,9 +174,9 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "Asta Tu-Bs",
+        logo: "themes/repair-bs/img/asta.png",
+        url: "https://www.asta.tu-braunschweig.de/"
       }
     ],
 
