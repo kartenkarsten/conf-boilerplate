@@ -193,9 +193,9 @@ module.exports = {
         url: "http://www.freiwillig-engagiert.de/"
       },
       {
-        name: "Fablab Braunschweig",
+        name: "Selbstwerk (Fablab) Braunschweig",
         logo: "themes/repair-bs/img/selbstwerk_bs.png",
-        url: "http://www.offene-werkstaetten.org/werkstatt/fablab-braunschweig"
+        url: "http://www.selbstwerk-bs.de/"
       },
       {
         name: "Flickwerk Braunschweig",
